@@ -1,0 +1,21 @@
+
+print("Instagram")
+user=input("Phone number, username or email")
+passoword=input("Passoword")
+if user=="Kevin" and passoword=="1234":
+    print(f"welcome {user}")
+    print(" ")
+    print("Loading your posts")
+else:
+    print("Sorry, your password was incorrect.Please doble-check your password.")
+
+print("Sign up to see photos and videos from yours friends.")
+input("Log in with Facebook")
+facebook=input("Yes or No")
+if facebook== "si":
+    print("welcome")
+else:
+    mobile= input("Mobile Number or email")
+    name= input("Full name")
+    username=input("User Name")
+    Password=input("Password")
